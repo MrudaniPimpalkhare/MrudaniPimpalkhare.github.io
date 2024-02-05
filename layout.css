@@ -32,7 +32,7 @@ html {
         --links-bg-color: var(--body-bg-color);
         --md-footer-logo-dark-mode: none;
         --md-footer-logo-light-mode: block;
-        --bt-img: url("https://github.com/MrudaniPimpalkhare/mrudanipimpalkhare.github.io/blob/main/icons/DarkMode.png");
+        --bt-img: url("https://github.com/MrudaniPimpalkhare/mrudanipimpalkhare.github.io/blob/main/icons/DarkMode.png?raw=true");
     }
 
     /* --bg-aboutme-light: url(https://t4.ftcdn.net/jpg/01/30/50/59/360_F_130505941_aHM5DQifhmVGcs80xVUPPMfDjg5BBm3c.jpg); */
@@ -48,7 +48,7 @@ html {
     --links-bg-color: (var(--li-t-color));
     --md-footer-logo-dark-mode: block;
     --md-footer-logo-light-mode: none;
-    --bt-img: url("https://github.com/MrudaniPimpalkhare/mrudanipimpalkhare.github.io/blob/main/icons/LM2.png");
+    --bt-img: url("https://github.com/MrudaniPimpalkhare/mrudanipimpalkhare.github.io/blob/main/icons/LM2.png?raw=true");
 }
 
 body {
