@@ -1,0 +1,190 @@
+@import "layout.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
+
+.aboutme {
+    background-image: var(--bg-aboutme-light);
+    filter: contrast(0.9) brightness(0.9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0%;
+    padding-top: 1%;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.85em;
+    text-align: center;
+    width: 98%;
+    height: 465px;
+    top: 8vmax;
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--main-bc-color);
+    border-radius: 7vmax;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+    right: 1%;
+    left: 1%;
+}
+
+.aboutme h2{
+    position: relative;
+    /* align-items: flex-start; */
+    margin-block-end: 25%;
+    text-align: center;
+    height: 10%;
+    width: 98%;
+    margin: 1%;
+    right:10%;
+}
+
+.aboutme p{
+    position: relative;
+    /* align-items: flex-start; */
+    text-align: center;
+    top: 15%;
+    font-size: 90%;
+}
+
+.edubg {
+    height: 40vmax;
+    top: 14vmax;
+    border-radius: 7vmax;
+    width: 98%;
+    font-size: 2em;
+    display: flex;
+    position: relative;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+    justify-content: center;
+    align-items: center;
+    left: 1%;
+    right: 1%;
+
+
+
+}
+
+.edubg h2 {
+    position: relative;
+    /* align-items: flex-start; */
+    margin-block-end: 25%;
+    text-align: center;
+    height: 10%;
+    width: 80%;
+    margin: 1%;
+    bottom: 31%;
+    left: 38%;
+}
+
+.box {
+    width: 40%;
+    height: 20%;
+    margin: 2%;
+    position: relative;
+    /* Adjust margin as needed */
+    background-color: #deb4bc;
+    /* Set background color */
+    border: none;
+    /* Set border color */
+    text-align: center;
+    justify-content: center;
+    margin-block-start: 7%;
+    margin-top: 1%;
+    top: 20%;
+    right: 13%;
+    padding: 5%;
+    border-radius: 5%;
+
+}
+
+.b1 {
+    background-image: url(https://images.pexels.com/photos/2099737/pexels-photo-2099737.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    font-size: 0.6em;
+    font-weight: bold;
+    color: black;
+
+}
+
+.b2 {
+    font-size: 0.6em;
+    font-weight: bold;
+    background-color: #eee6a5;
+    color: black;
+}
+
+.b3 {
+    font-size: 0.6em;
+    font-weight: bold;
+    background-color: #cab2b7;
+    color: black;
+}
+
+.skills {
+    width: 98%;
+    border-radius: 7vmax;
+    left: 1%;
+    right: 1%;
+    top: 20vmax;
+    height: 60vmax;
+    font-size: 2em;
+    display: flex;
+    position: relative;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills h2 {
+    position: relative;
+    /* align-items: flex-start; */
+    margin-block-end: 25%;
+    text-align: center;
+    height: 10%;
+    width: 80%;
+    margin: 1%;
+    bottom: 40%;
+    left: 30%;
+}
+
+.skills p {
+    position: relative;
+    /* align-items: flex-start; */
+    text-align: center;
+    top: 0%;
+    right: 17%;
+    font-size: 75%;
+}
+
+.ach {
+    width: 98%;
+    border-radius: 7vmax;
+    left: 1%;
+    right: 1%;
+    top: 26vmax;
+    height: 45vmax;
+    font-size: 2em;
+    display: flex;
+    position: relative;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.ach h2 {
+    position: relative;
+    /* align-items: flex-start; */
+    margin-block-end: 25%;
+    text-align: center;
+    height: 10%;
+    width: 80%;
+    margin: 1%;
+    bottom: 31%;
+    left: 20%;
+}
+
+.ach li {
+    position: relative;
+    /* align-items: flex-start; */
+    text-align: center;
+    top: 11%;
+    right: 90%;
+    font-size: 75%;
+}
