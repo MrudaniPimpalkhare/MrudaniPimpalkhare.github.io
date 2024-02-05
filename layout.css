@@ -32,7 +32,7 @@ html {
         --links-bg-color: var(--body-bg-color);
         --md-footer-logo-dark-mode: none;
         --md-footer-logo-light-mode: block;
-        --bt-img: url("https://github.com/MrudaniPimpalkhare/mrudanipimpalkhare.github.io/blob/main/icons/DarkMode.png?raw=true");
+        --bt-img: url("./icons/DarkMode.png");
     }
 
     /* --bg-aboutme-light: url(https://t4.ftcdn.net/jpg/01/30/50/59/360_F_130505941_aHM5DQifhmVGcs80xVUPPMfDjg5BBm3c.jpg); */
