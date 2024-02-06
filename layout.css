@@ -19,12 +19,11 @@ html {
 }
 
 
-
 @media (prefers-color-scheme: dark) {
 
     :root,
     [data-theme="light"] {
-        --body-bg-color: rgb(224, 220, 215);
+        --body-bg-color: rgb(230, 212, 218);
         --li-t-color: #212124;
         --text-t-color: var(--li-t-color);
         --main-bc-color: rgb(32, 30, 30);

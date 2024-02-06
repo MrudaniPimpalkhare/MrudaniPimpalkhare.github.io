@@ -12,3 +12,14 @@ function updateTheme() {
     flag = 1 - flag;
     return 0;
 }
+
+function removeLoader(){
+  
+    setTimeout(()=>{
+       let loader = document.getElementById('loader');
+    
+    // hide the loader
+    loader.style = 'display: none;';
+    },
+               1000);  
+  }
