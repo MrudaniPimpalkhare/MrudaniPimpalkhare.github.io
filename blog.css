@@ -1,5 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: var(--li-t-color);
+    text-decoration: none;
+}
+
+li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--li-t-color);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    /*even spacing */
+    padding: 30px 10%;
+    opacity: 0.8;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 4%;
+    margin-top: 0.5%;
+    height: 3%;
+}
+
+.nav_links {
+    list-style: none;
+    color: var(--li-t-color);
+    font-weight: 100;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(71, 144, 144);
+}
+
 .blog1 {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -22,7 +74,8 @@
     border-radius: 1%;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #333;
 }
 
@@ -41,8 +94,8 @@ ul {
     margin-left: 20px;
 }
 
-.likebutton{
-    height:2vmax;
+.likebutton {
+    height: 2vmax;
     width: 2vmax;
     background-color: transparent;
     background-image: url(./icons/like.png);
@@ -50,6 +103,4 @@ ul {
     border-color: transparent;
 }
 
-.likebutton :hover{
-
-}
+.likebutton :hover {}
