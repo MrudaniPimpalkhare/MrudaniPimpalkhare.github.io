@@ -52,15 +52,7 @@ header {
     color: rgb(71, 144, 144);
 }
 
-.idk li {
-    list-style: none;
-    display: inline-block;
-    list-style: none;
-}
 
-.idk {
-    list-style: none;
-}
 
 .blog1 {
     font-family: Arial, sans-serif;
@@ -112,5 +104,3 @@ ul {
     background-size: contain;
     border-color: transparent;
 }
-
-.likebutton :hover {}
