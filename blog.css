@@ -94,6 +94,24 @@ li {
     color: rgb(71, 144, 144);
 }
 
+.toggleB {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    /* color: var(--body-bg-color); */
+    text-decoration: none;
+    background-image: var(--bt-img);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    padding: 7px 25px;
+    background-color: var(--body-bg-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+}
 
 
 .blog1 {
