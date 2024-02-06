@@ -1,4 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@media (prefers-color-scheme: dark) {
+
+    :root,
+    [data-theme="light"] {
+        --body-bg-color: rgb(224, 220, 215);
+        --li-t-color: #212124;
+        --text-t-color: var(--li-t-color);
+        --main-bc-color: rgb(32, 30, 30);
+        --button-bg-color: var(--li-t-color);
+        --links-bg-color: var(--body-bg-color);
+        --md-footer-logo-dark-mode: none;
+        --md-footer-logo-light-mode: block;
+        --bt-img: url("./icons/DarkMode.png");
+    }
+
+    /* --bg-aboutme-light: url(https://t4.ftcdn.net/jpg/01/30/50/59/360_F_130505941_aHM5DQifhmVGcs80xVUPPMfDjg5BBm3c.jpg); */
+
+}
+
+[data-theme="dark"] {
+    --body-bg-color: #292b2b;
+    --li-t-color: #f3efec;
+    --text-t-color: var(--li-t-color);
+    --main-bc-color: rgb(220, 143, 143);
+    --button-bg-color: var(--li-t-color);
+    --links-bg-color: (var(--li-t-color));
+    --md-footer-logo-dark-mode: block;
+    --md-footer-logo-light-mode: none;
+    --bt-img: url("./icons/LM2.png");
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg-color);
+    color: var(--li-t-color);
+
+}
+
+.hello{
+    color: var(--li-t-color);
+}
 
 
 a {
@@ -17,7 +59,7 @@ li {
     text-decoration: none;
 }
 
-header {
+.l {
     display: flex;
     justify-content: flex-end;
     /*even spacing */

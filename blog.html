@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="{{ theme }}">
 
 <head>
     <link rel="stylesheet" href="blog.css">
@@ -8,18 +8,20 @@
 
 
 <body>
-    <header>
+    <script src="script.js"></script>
+    <header class="l">
 
         <img class="logo" src="./icons/logo.png" alt="logo">
         <nav>
             <ul class="nav_links">
                 <li><a href="index.html">Home</a></li>
+                <li><button onclick="updateTheme()" class="toggleB" id="toggle"></button></li>
             </ul>
 
         </nav>
     </header>
 
-    <h1 align="center" style="font-family:Arial, Helvetica, sans-serif"> Welcome to my Blog! </h1>
+    <h1 align="center" class ="hello" style="font-family:Arial, Helvetica, sans-serif"> Welcome to my Blog! </h1>
     <div class="blog1">
 
         <h1>The Benefits of Mindfulness Meditation</h1>
