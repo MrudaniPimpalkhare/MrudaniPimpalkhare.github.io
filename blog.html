@@ -22,7 +22,7 @@
         </nav>
     </header>
 
-    <h1 align="center" class ="hello" style="font-family:Arial, Helvetica, sans-serif"> Welcome to my Blog! </h1>
+    <h1 align="center" class="hello" style="font-family:Arial, Helvetica, sans-serif"> Welcome to my Blog! </h1>
     <div class="blog1">
 
         <h1>The Benefits of Mindfulness Meditation</h1>
@@ -60,6 +60,13 @@
                     localStorage.clickcount = Number(localStorage.clickcount) + 1;
                 } else {
                     localStorage.clickcount = 1;
+                }
+                if (localStorage.liked === "true") {
+                    localStorage.clickcount = Number(localStorage.clickcount) - 2;
+                    localStorage.liked = "false";
+                    
+                } else {
+                    localStorage.liked = "true";
                 }
                 document.getElementById("display").innerHTML = localStorage.clickcount;
             }
@@ -176,6 +183,13 @@
                     } else {
                         localStorage.clickcount2 = 1;
                     }
+                    if (localStorage.liked2 === "true") {
+                    localStorage.clickcount2 = Number(localStorage.clickcount2) - 2;
+                    localStorage.liked2 = "false";
+                    
+                } else {
+                    localStorage.liked2 = "true";
+                }
                     document.getElementById("display2").innerHTML = localStorage.clickcount2;
                 }
             </script>
