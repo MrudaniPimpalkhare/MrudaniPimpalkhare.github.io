@@ -17,7 +17,6 @@
             </ul>
 
         </nav>
-        <!-- <a class="cta" href="#"><button>Contact</button></a> -->
     </header>
 
     <h1 align="center" style="font-family:Arial, Helvetica, sans-serif"> Welcome to my Blog! </h1>
@@ -74,39 +73,39 @@
             function addComment2() {
                 var commentInput = document.getElementById("new-comment");
                 var commentList = document.getElementById("comment-container");
-    
+
                 // Retrieve existing comments from local storage
                 var comments = JSON.parse(localStorage.getItem('comments')) || [];
-    
+
                 // Add the new comment to the array
                 comments.push(commentInput.value);
-    
+
                 // Save the updated comments array back to local storage
                 localStorage.setItem('comments', JSON.stringify(comments));
-    
+
                 // Display the comments
                 displayComments2();
-    
+
                 // Clear the input field
                 commentInput.value = '';
             }
-    
+
             // Function to display comments
             function displayComments2() {
                 var commentList = document.getElementById("comment-container");
                 var comments = JSON.parse(localStorage.getItem('comments')) || [];
-    
+
                 // Clear the existing content
                 commentList.innerHTML = '';
-    
+
                 // Display each comment
-                comments.forEach(function(comment) {
+                comments.forEach(function (comment) {
                     var commentElement = document.createElement('div');
                     commentElement.textContent = comment;
                     commentList.appendChild(commentElement);
                 });
             }
-    
+
             // Display comments on page load
             displayComments2();
         </script>
@@ -186,45 +185,45 @@
             <br>
             <button id="btn-post2" onclick="addComment()">Post</button>
             <script>
-            function addComment() {
-                var commentInput = document.getElementById("new-comment2");
-                var commentList = document.getElementById("comment-container2");
-    
-                // Retrieve existing comments from local storage
-                var comments = JSON.parse(localStorage.getItem('comments2')) || [];
-    
-                // Add the new comment to the array
-                comments.push(commentInput.value);
-    
-                // Save the updated comments array back to local storage
-                localStorage.setItem('comments2', JSON.stringify(comments));
-    
-                // Display the comments
+                function addComment() {
+                    var commentInput = document.getElementById("new-comment2");
+                    var commentList = document.getElementById("comment-container2");
+
+                    // Retrieve existing comments from local storage
+                    var comments = JSON.parse(localStorage.getItem('comments2')) || [];
+
+                    // Add the new comment to the array
+                    comments.push(commentInput.value);
+
+                    // Save the updated comments array back to local storage
+                    localStorage.setItem('comments2', JSON.stringify(comments));
+
+                    // Display the comments
+                    displayComments();
+
+                    // Clear the input field
+                    commentInput.value = '';
+                }
+
+                // Function to display comments
+                function displayComments() {
+                    var commentList = document.getElementById("comment-container2");
+                    var comments = JSON.parse(localStorage.getItem('comments2')) || [];
+
+                    // Clear the existing content
+                    commentList.innerHTML = '';
+
+                    // Display each comment
+                    comments.forEach(function (comment) {
+                        var commentElement = document.createElement('div');
+                        commentElement.textContent = comment;
+                        commentList.appendChild(commentElement);
+                    });
+                }
+
+                // Display comments on page load
                 displayComments();
-    
-                // Clear the input field
-                commentInput.value = '';
-            }
-    
-            // Function to display comments
-            function displayComments() {
-                var commentList = document.getElementById("comment-container2");
-                var comments = JSON.parse(localStorage.getItem('comments2')) || [];
-    
-                // Clear the existing content
-                commentList.innerHTML = '';
-    
-                // Display each comment
-                comments.forEach(function(comment) {
-                    var commentElement = document.createElement('div');
-                    commentElement.textContent = comment;
-                    commentList.appendChild(commentElement);
-                });
-            }
-    
-            // Display comments on page load
-            displayComments();
-        </script>
+            </script>
     </div>
 </body>
 
